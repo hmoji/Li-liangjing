@@ -6,7 +6,7 @@ typedef struct {
 	char num[20];
 }fri;
 fri *p;
-void sort(int l, int r) {//¿ìËÙÅÅĞò
+void sort(int l, int r) {//Â¿Ã¬Ã‹Ã™Ã…Ã…ÃÃ²
 	if (l >= r)
 		return;
 	int i = l, j = r;
